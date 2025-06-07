@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.battlesnake.starter.SnakeTest" time="0.321" tests="9" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/codio/workspace/starter-snake-java/target/test-classes:/home/codio/workspace/starter-snake-java/target/classes:/home/codio/.m2/repository/com/sparkjava/spark-core/2.9.3/spark-core-2.9.3.jar:/home/codio/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/codio/.m2/repository/org/eclipse/jetty/jetty-server/9.4.31.v20200723/jetty-server-9.4.31.v20200723.jar:/home/codio/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/codio/.m2/repository/org/eclipse/jetty/jetty-http/9.4.31.v20200723/jetty-http-9.4.31.v20200723.jar:/home/codio/.m2/repository/org/eclipse/jetty/jetty-util/9.4.31.v20200723/jetty-util-9.4.31.v20200723.jar:/home/codio/.m2/repository/org/eclipse/jetty/jetty-io/9.4.31.v20200723/jetty-io-9.4.31.v20200723.jar:/home/codio/.m2/repository/org/eclipse/jetty/jetty-webapp/9.4.31.v20200723/jetty-webapp-9.4.31.v20200723.jar:/home/codio/.m2/repository/org/eclipse/jetty/jetty-xml/9.4.31.v20200723/jetty-xml-9.4.31.v20200723.jar:/home/codio/.m2/repository/org/eclipse/jetty/jetty-servlet/9.4.31.v20200723/jetty-servlet-9.4.31.v20200723.jar:/home/codio/.m2/repository/org/eclipse/jetty/jetty-security/9.4.31.v20200723/jetty-security-9.4.31.v20200723.jar:/home/codio/.m2/repository/org/eclipse/jetty/websocket/websocket-server/9.4.31.v20200723/websocket-server-9.4.31.v20200723.jar:/home/codio/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.4.31.v20200723/websocket-common-9.4.31.v20200723.jar:/home/codio/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.4.31.v20200723/websocket-client-9.4.31.v20200723.jar:/home/codio/.m2/repository/org/eclipse/jetty/jetty-client/9.4.31.v20200723/jetty-client-9.4.31.v20200723.jar:/home/codio/.m2/repository/org/eclipse/jetty/websocket/websocket-servlet/9.4.31.v20200723/websocket-servlet-9.4.31.v20200723.jar:/home/codio/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.4.31.v20200723/websocket-api-9.4.31.v20200723.jar:/home/codio/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.4/jackson-databind-2.12.4.jar:/home/codio/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.4/jackson-annotations-2.12.4.jar:/home/codio/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.4/jackson-core-2.12.4.jar:/home/codio/.m2/repository/org/slf4j/slf4j-simple/1.7.31/slf4j-simple-1.7.31.jar:/home/codio/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.2.0/junit-jupiter-api-5.2.0.jar:/home/codio/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/home/codio/.m2/repository/org/opentest4j/opentest4j/1.1.0/opentest4j-1.1.0.jar:/home/codio/.m2/repository/org/junit/platform/junit-platform-commons/1.2.0/junit-platform-commons-1.2.0.jar:"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://www.azul.com/"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/zulu17-ca-amd64/lib"/>
+    <property name="sun.java.command" value="/home/codio/workspace/starter-snake-java/target/surefire/surefirebooter17634343922089917377.jar /home/codio/workspace/starter-snake-java/target/surefire 2025-05-15T23-06-29_653-jvmRun1 surefire207784852870085204tmp surefire_013393503450548442893tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/codio/workspace/starter-snake-java/target/test-classes:/home/codio/workspace/starter-snake-java/target/classes:/home/codio/.m2/repository/com/sparkjava/spark-core/2.9.3/spark-core-2.9.3.jar:/home/codio/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/codio/.m2/repository/org/eclipse/jetty/jetty-server/9.4.31.v20200723/jetty-server-9.4.31.v20200723.jar:/home/codio/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/codio/.m2/repository/org/eclipse/jetty/jetty-http/9.4.31.v20200723/jetty-http-9.4.31.v20200723.jar:/home/codio/.m2/repository/org/eclipse/jetty/jetty-util/9.4.31.v20200723/jetty-util-9.4.31.v20200723.jar:/home/codio/.m2/repository/org/eclipse/jetty/jetty-io/9.4.31.v20200723/jetty-io-9.4.31.v20200723.jar:/home/codio/.m2/repository/org/eclipse/jetty/jetty-webapp/9.4.31.v20200723/jetty-webapp-9.4.31.v20200723.jar:/home/codio/.m2/repository/org/eclipse/jetty/jetty-xml/9.4.31.v20200723/jetty-xml-9.4.31.v20200723.jar:/home/codio/.m2/repository/org/eclipse/jetty/jetty-servlet/9.4.31.v20200723/jetty-servlet-9.4.31.v20200723.jar:/home/codio/.m2/repository/org/eclipse/jetty/jetty-security/9.4.31.v20200723/jetty-security-9.4.31.v20200723.jar:/home/codio/.m2/repository/org/eclipse/jetty/websocket/websocket-server/9.4.31.v20200723/websocket-server-9.4.31.v20200723.jar:/home/codio/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.4.31.v20200723/websocket-common-9.4.31.v20200723.jar:/home/codio/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.4.31.v20200723/websocket-client-9.4.31.v20200723.jar:/home/codio/.m2/repository/org/eclipse/jetty/jetty-client/9.4.31.v20200723/jetty-client-9.4.31.v20200723.jar:/home/codio/.m2/repository/org/eclipse/jetty/websocket/websocket-servlet/9.4.31.v20200723/websocket-servlet-9.4.31.v20200723.jar:/home/codio/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.4.31.v20200723/websocket-api-9.4.31.v20200723.jar:/home/codio/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.4/jackson-databind-2.12.4.jar:/home/codio/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.4/jackson-annotations-2.12.4.jar:/home/codio/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.4/jackson-core-2.12.4.jar:/home/codio/.m2/repository/org/slf4j/slf4j-simple/1.7.31/slf4j-simple-1.7.31.jar:/home/codio/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.2.0/junit-jupiter-api-5.2.0.jar:/home/codio/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/home/codio/.m2/repository/org/opentest4j/opentest4j/1.1.0/opentest4j-1.1.0.jar:/home/codio/.m2/repository/org/junit/platform/junit-platform-commons/1.2.0/junit-platform-commons-1.2.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/codio"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-04-18"/>
+    <property name="java.home" value="/usr/lib/jvm/zulu17-ca-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/codio/workspace/starter-snake-java"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/home/codio/workspace/starter-snake-java/target/surefire/surefirebooter17634343922089917377.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.7+7-LTS"/>
+    <property name="user.name" value="codio"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.8.0-1021-aws"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Zulu17.42+19-CA"/>
+    <property name="localRepository" value="/home/codio/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://www.azul.com/support/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="17.0.7"/>
+    <property name="user.dir" value="/home/codio/workspace/starter-snake-java"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="java.vm.version" value="17.0.7+7-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="startTest" classname="com.battlesnake.starter.SnakeTest" time="0.038"/>
+  <testcase name="endTest" classname="com.battlesnake.starter.SnakeTest" time="0.001"/>
+  <testcase name="avoidNeckUpTest" classname="com.battlesnake.starter.SnakeTest" time="0.004"/>
+  <testcase name="indexTest" classname="com.battlesnake.starter.SnakeTest" time="0.002"/>
+  <testcase name="moveTest" classname="com.battlesnake.starter.SnakeTest" time="0.037"/>
+  <testcase name="avoidNeckRightTest" classname="com.battlesnake.starter.SnakeTest" time="0"/>
+  <testcase name="avoidNeckDownTest" classname="com.battlesnake.starter.SnakeTest" time="0"/>
+  <testcase name="avoidNeckLeftTest" classname="com.battlesnake.starter.SnakeTest" time="0"/>
+  <testcase name="avoidNeckAllTest" classname="com.battlesnake.starter.SnakeTest" time="0"/>
+</testsuite>
